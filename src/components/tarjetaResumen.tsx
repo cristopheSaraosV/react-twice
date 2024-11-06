@@ -36,18 +36,10 @@ const TarjetaResumen: React.FC<TarjetaResumenProps> = ({ id, nombre, descripcion
         className="card-img-custom"
       />
       <img
+        className='img-peluche'
         width={60}
         src={peluche}
         alt=""
-        style={{
-          borderRadius: '50%',
-          border: '2px solid #000',
-          padding: '2px',
-          position: 'absolute',
-          top: '170px',
-          left: '220px',
-          backgroundColor: 'white'
-        }}
       />
       <Card.Body className="card-body-flex">
         <Card.Title>{nombre}</Card.Title>

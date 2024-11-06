@@ -28,4 +28,14 @@
 
 .button-height {
   height: 45px;
+};
+
+.img-peluche{
+   border-radius: '50%';
+   border: '2px solid #000';
+   padding: '2px';
+   position: 'absolute',;
+   top: '170px';
+   left: '220px';
+   background-color: 'white'
 }
