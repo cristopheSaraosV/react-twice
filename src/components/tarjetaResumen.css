@@ -1,0 +1,31 @@
+.card-img-custom {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-fixed-height {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 460px;
+  max-height: 460px;
+  box-sizing: border-box;
+}
+
+.card-img-custom {
+  height: 200px; 
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.button-height {
+  height: 45px;
+}

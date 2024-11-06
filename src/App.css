@@ -1,0 +1,107 @@
+body{
+  background: rgb(255, 240, 251) !important;
+  font-family: 'Poppins';
+
+}
+
+/* Fondo en tonos rosados */
+.bg-twice-pink {
+  background-color: #ffacc8 !important; /* Rosa claro */
+}
+
+/* Fondo en tonos morados */
+.bg-twice-purple {
+  background-color: #b399d4 !important; /* Morado pastel */
+}
+
+.border-twice-purple {
+  border: #b399d4  1px solid !important; /* Morado pastel */
+}
+
+/* Fondo en tonos azules */
+.bg-twice-blue {
+  background-color: #a0d8f1 !important; /* Azul claro */
+}
+
+/* Fondo en tonos blancos */
+.bg-twice-white {
+  background-color: #ffffff !important; /* Blanco */
+}
+
+/* Fondo en tonos amarillos */
+.bg-twice-yellow {
+  background-color: #ffe47a !important; /* Amarillo pastel */
+}
+
+/* Fondo en tonos melocotón */
+.bg-twice-peach {
+  background-color: #ffdfc4; /* Melocotón suave */
+}
+
+/* Fondo en tonos menta */
+.bg-twice-mint {
+  background-color: #a7e7b0 !important; /* Menta claro */
+}
+
+/* Fondo en degradado inspirado en Twice */
+.bg-twice-gradient {
+  background: linear-gradient(135deg, #ffacc8, #b399d4, #a0d8f1);
+}
+
+/* Texto en tonos rosados */
+.text-twice-pink {
+  color: #ffacc8 !important; /* Rosa claro */
+}
+
+/* Texto en tonos morados */
+.text-twice-purple {
+  color: #b399d4 !important; /* Morado pastel */
+}
+
+/* Texto en tonos azules */
+.text-twice-blue {
+  color: #a0d8f1 !important; /* Azul claro */
+}
+
+/* Texto en tonos blancos */
+.text-twice-white {
+  color: #ffffff !important; /* Blanco */
+}
+
+/* Texto en tonos amarillos */
+.text-twice-yellow {
+  color: #ffe47a !important; /* Amarillo pastel */
+}
+
+/* Texto en tonos melocotón */
+.text-twice-peach {
+  color: #ffdfc4 !important; /* Melocotón suave */
+}
+
+/* Texto en tonos menta */
+.text-twice-mint {
+  color: #a7e7b0 !important; /* Menta claro */
+}
+
+/* Texto con degradado inspirado en Twice */
+.text-twice-gradient {
+  background: linear-gradient(135deg, #ffacc8, #b399d4, #a0d8f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.active {
+  font-weight: bold;
+  color: #ec2165 !important;
+}
+
+.enlace{
+  transition: .3s ease-in-out all; 
+  text-decoration: none;
+  color: #242424;
+}
+
+.fixed-image {
+  height: 200px; /* Ajusta la altura según tus necesidades */
+  object-fit: cover;
+}

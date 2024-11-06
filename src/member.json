@@ -1,0 +1,66 @@
+[
+    {
+      "id": "nayeon",
+      "nombre": "Nayeon",
+      "descripcion": "Nayeon es la vocalista principal de Twice. Con su energía y carisma. Es conocida por su voz única y su estilo alegre.",
+      "img": "https://6.soompi.io/wp-content/uploads/image/20240703024421_20240702140425_Nayeon.jpg?s=900x600&e=t",
+      "colorClase": "bg-twice-pink"
+    },
+    {
+      "id": "jeongyeon",
+      "nombre": "Jeongyeon",
+      "descripcion": "Jeongyeon es conocida por su voz profunda y su estilo versátil. Su presencia en el escenario es poderosa y su personalidad auténtica.",
+      "img": "https://fotos.perfil.com/2023/02/23/jeongyeon-1514330.jpg",
+      "colorClase": "bg-twice-purple"
+    },
+    {
+      "id": "momo",
+      "nombre": "Momo",
+      "descripcion": "Momo es la principal bailarina del grupo, destacada por su habilidad en el baile y su precisión. Es muy querida por su carácter alegre.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/0/08/TWICE_MOMO_April_2024.jpg",
+      "colorClase": "bg-twice-blue"
+    },
+    {
+      "id": "sana",
+      "nombre": "Sana",
+      "descripcion": "Sana tiene una personalidad encantadora y es conocida por su calidez. Su frase 'shy shy shy' se volvió viral.",
+      "img": "https://6.soompi.io/wp-content/uploads/image/a0d73128477f4defa4f35e47c39ce1e2/dummy.jpeg?s=900x600&e=t",
+      "colorClase": "bg-twice-yellow"
+    },
+    {
+      "id": "jihyo",
+      "nombre": "Jihyo",
+      "descripcion": "Jihyo es la líder y vocalista principal de Twice. Con su voz poderosa y liderazgo, es el corazón del grupo.",
+      "img": "https://i.scdn.co/image/ab6761610000517435d2a39ff33092ad964e4506",
+      "colorClase": "bg-twice-mint"
+    },
+    {
+      "id": "mina",
+      "nombre": "Mina",
+      "descripcion": "Mina es la bailarina elegante de Twice, conocida por su presencia tranquila y sofisticada en el escenario.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0bKK8Oku47ZjkQ2P_ogPrPChoknw_rv3Yfw&s",
+      "colorClase": "bg-twice-peach"
+    },
+    {
+      "id": "dahyun",
+      "nombre": "Dahyun",
+      "descripcion": "Dahyun aporta mucha energía al grupo y es famosa por su personalidad vibrante y su habilidad para el rap.",
+      "img": "https://media.airedesantafe.com.ar/p/f823f1bb1eb65380897d56f1c19d36c9/adjuntos/268/imagenes/003/826/0003826307/1200x0/smart/imagepng.png",
+      "colorClase": "bg-twice-gradient"
+    },
+    {
+      "id": "chaeyoung",
+      "nombre": "Chaeyoung",
+      "descripcion": "Chaeyoung es la rapera principal del grupo, conocida por su creatividad y estilo único. También es una talentosa artista visual.",
+      "img": "https://boo-prod.b-cdn.net/database/profiles/16836642664107564ba5c402e40cf1cb6d8906447e5ed.jpeg",
+      "colorClase": "bg-twice-pink"
+    },
+    {
+      "id": "tzuyu",
+      "nombre": "Tzuyu",
+      "descripcion": "Tzuyu es la integrante más joven de Twice, destacada por su belleza y habilidades en el baile. Tiene una gran base de fans en todo el mundo.",
+      "img": "https://6.soompi.io/wp-content/uploads/image/20240918025011_20240917203335_Tzuyu.jpg?s=900x600&e=t",
+      "colorClase": "bg-twice-peach"
+    }
+  ]
+  
