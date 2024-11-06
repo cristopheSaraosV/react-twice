@@ -5,35 +5,32 @@ import "../../App.css";
 
 const AppNavBar: React.FC = () => {
   return (
-    <Navbar className='bg-twice-pink'>
+    <Navbar className='bg-twice-pink' expand="lg">
       <Container>
         <Navbar.Brand className='text-dark' as={NavLink} to="/">Twice</Navbar.Brand>
-        <Nav className="me-auto">
-          <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? 'enlace active mx-2 ' : 'enlace mx-2 btn-primary')}
-          >
-            Inicio
-          </NavLink>
-          <NavLink
-            to="/miembros"
-            className={({ isActive }) => (isActive ? 'enlace active mx-2' : 'enlace mx-2')}
-          >
-            Miembros
-          </NavLink>
-          <NavLink
-            to="/noticias"
-            className={({ isActive }) => (isActive ? 'enlace active mx-2' : 'enlace mx-2')}
-          >
-            Noticias
-          </NavLink>
-          <NavLink
-            to="/conciertos"
-            className={({ isActive }) => (isActive ? 'enlace active' : 'enlace')}
-          >
-            Conciertos
-          </NavLink>
-        </Nav>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? 'enlace active mx-2' : 'enlace mx-2')}
+            >
+              Inicio
+            </NavLink>
+            <NavLink
+              to="/miembros"
+              className={({ isActive }) => (isActive ? 'enlace active mx-2' : 'enlace mx-2')}
+            >
+              Miembros
+            </NavLink>
+            <NavLink
+              to="/noticias"
+              className={({ isActive }) => (isActive ? 'enlace active mx-2' : 'enlace mx-2')}
+            >
+              Noticias
+            </NavLink>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
